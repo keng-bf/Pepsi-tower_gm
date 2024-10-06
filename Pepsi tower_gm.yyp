@@ -58,6 +58,7 @@
     {"id":{"name":"spr_crouchmask","path":"sprites/spr_crouchmask/spr_crouchmask.yy",},"order":10,},
     {"id":{"name":"spr_player_Sjumpprep","path":"sprites/spr_player_Sjumpprep/spr_player_Sjumpprep.yy",},"order":11,},
     {"id":{"name":"scr_player_crouch","path":"scripts/scr_player_crouch/scr_player_crouch.yy",},"order":19,},
+    {"id":{"name":"spr_player_death","path":"sprites/spr_player_death/spr_player_death.yy",},"order":30,},
     {"id":{"name":"spr_player_mach","path":"sprites/spr_player_mach/spr_player_mach.yy",},"order":18,},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},"order":0,},
     {"id":{"name":"spr_dashcloud","path":"sprites/spr_dashcloud/spr_dashcloud.yy",},"order":11,},
