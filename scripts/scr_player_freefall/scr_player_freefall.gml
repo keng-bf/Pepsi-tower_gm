@@ -18,7 +18,6 @@ function scr_player_freefall(){
 	    audio_sound_gain(sfx_land, 0.7, 0);
 		if (!audio_is_playing(sfx_land))
 		    audio_play_sound(sfx_land, 1, false);
-		scr_sound(sfx_break);
 	}
 	sprite_index = spr_player_freefall;
 	image_speed = 0.30;
