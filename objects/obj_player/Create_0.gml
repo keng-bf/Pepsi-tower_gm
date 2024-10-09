@@ -1,5 +1,7 @@
 with (obj_player)
 {
+	gotodoor = ""
+    gotoroom = -4
     grav = 0.4
     hsp = 0
     vsp = 0

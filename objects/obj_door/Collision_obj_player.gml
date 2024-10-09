@@ -1,14 +1,7 @@
-with (obj_player)
+if (keyboard_check(vk_up) && (!instance_exists(obj_fadeout)))
 {
-    if ((state == 0) && (key_up && (y == (other.y + 50))))
-    {
-        player_y = other.target_y;
-        player_x = other.target_x;
-        targetRoom = other.targetRoom;
-        other.visited = 1;
-        image_index = 0;
-        state = 56;
-        instance_create_depth(x, y, -9999, obj_fadeout);
-		scr_sound(sfx_door);
-    }
+    obj_player.gotoroom = gotoroom
+    obj_player.gotodoor = gotodoor
+    instance_create_layer(x, y, "Instances", obj_fadeout)
+    audio_play_sound(sfx_door, 10, false)
 }
