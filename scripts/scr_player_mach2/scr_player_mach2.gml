@@ -32,18 +32,21 @@ function scr_player_mach2(){
 	}
 	if ((!key_attack) && place_meeting(x, (y + 1), obj_collisionparent))
 	{
+	    scr_sound(sfx_slide);
 	    state = 49;
 	    image_index = 0;
 	    mach2 = 35;
 	}
 	if (((move == -1) && (xscale == 1)) && place_meeting(x, (y + 1), obj_collisionparent))
 	{
+	    scr_sound(sfx_slide);
 	    state = 49;
 	    image_index = 0;
 	    mach2 = 35;
 	}
 	if (((move == 1) && (xscale == -1)) && place_meeting(x, (y + 1), obj_collisionparent))
 	{
+	    scr_sound(sfx_slide);
 	    state = 49;
 	    image_index = 0;
 	    mach2 = 35;
@@ -89,7 +92,7 @@ function scr_player_mach2(){
     if (machpunchAnim == 0)
     {
         if (machhitAnim == 0)
-            sprite_index = spr_player_mach
+            sprite_index = spr_player_mach3
         if (machhitAnim == 1)
             sprite_index = spr_player_machhit
     }

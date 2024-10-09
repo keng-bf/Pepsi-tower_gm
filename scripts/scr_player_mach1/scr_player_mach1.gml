@@ -74,9 +74,9 @@ function scr_player_mach1(){
 	if (!audio_is_playing(sfx_mach1))
 	    audio_play_sound(sfx_mach1, 1, false);
 	if (momemtum == 0)
-	    sprite_index = spr_player_mach;
+	    sprite_index = spr_player_mach3;
 	else
-	    sprite_index = spr_player_mach;
+	    sprite_index = spr_player_mach3;
 	if (movespeed < 3)
 	    image_speed = 0.25;
 	else if ((movespeed > 3) && (movespeed < 7))
