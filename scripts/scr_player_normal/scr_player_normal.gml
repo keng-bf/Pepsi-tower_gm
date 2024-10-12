@@ -112,12 +112,12 @@ function scr_player_normal(){
 	                idle = 0
 	                image_index = 0
 	            }
-	            //if ((idle >= 300) && ((sprite_index != spr_player_idlefrown) && ((sprite_index != spr_player_idledance) && ((sprite_index != spr_player_idlevomit) && (sprite_index != spr_player_idlevomitblood)))))
-	          //  {
-	            //    randomize()
-	              //  idleanim = random_range(0, 100)
-	                //if (idleanim < 40)
-	                  //  sprite_index = spr_player_idlefrown
+	            if ((idle >= 300) && ((sprite_index != spr_player_idlefrown) && ((sprite_index != spr_player_idledance) && ((sprite_index != spr_player_idlevomit) && (sprite_index != spr_player_idlevomitblood)))))
+	            {
+	            randomize()
+	               idleanim = random_range(0, 100)
+	               if (idleanim < 40)
+	                  sprite_index = spr_player_idlefrown
 	                //if ((idleanim < 80) && (idleanim >= 40))
 	                  //  sprite_index = spr_player_idledance
 	                //if ((idleanim < 99) && (idleanim >= 80))
@@ -125,7 +125,7 @@ function scr_player_normal(){
 	                //if ((idleanim < 100) && (idleanim >= 99))
 	                 //   sprite_index = spr_player_idlevomitblood
 	                //image_index = 0
-	            //}
+	            }
 	            if (idle < 300)
 	            {
 	                if (windingAnim < 50)
