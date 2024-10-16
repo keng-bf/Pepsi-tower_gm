@@ -34,6 +34,7 @@
     {"id":{"name":"obj_mach2effect","path":"objects/obj_mach2effect/obj_mach2effect.yy",},"order":10,},
     {"id":{"name":"spr_lap3","path":"sprites/spr_lap3/spr_lap3.yy",},"order":15,},
     {"id":{"name":"shd_hit","path":"shaders/shd_hit/shd_hit.yy",},"order":0,},
+    {"id":{"name":"spr_player_mach4","path":"sprites/spr_player_mach4/spr_player_mach4.yy",},"order":38,},
     {"id":{"name":"spr_player_machslide","path":"sprites/spr_player_machslide/spr_player_machslide.yy",},"order":21,},
     {"id":{"name":"scr_player_crouchslide","path":"scripts/scr_player_crouchslide/scr_player_crouchslide.yy",},"order":17,},
     {"id":{"name":"spr_player_bump","path":"sprites/spr_player_bump/spr_player_bump.yy",},"order":22,},

@@ -85,7 +85,7 @@ function scr_player_mach4(){
 	audio_sound_gain(sfx_mach2, 0.7, 0);
 	if (!audio_is_playing(sfx_mach2))
 	    audio_play_sound(sfx_mach2, 1, false);
-	sprite_index = spr_player_mach3;
+	sprite_index = spr_player_mach4;
 	if ((!instance_exists(obj_dashcloud)) && (place_meeting(x, (y + 1), obj_collisionparent) && (!place_meeting(x, (y + 1), obj_water))))
 	    instance_create_depth(x, y, -6, obj_dashcloud);
 	if (!instance_exists(obj_mach2effect))
