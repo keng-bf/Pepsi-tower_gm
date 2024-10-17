@@ -1,0 +1,1 @@
+url_open("http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H3Vf3Li1TSJLny49LWw2BApa_HbYIcv4&authKey=9wcUo0joF0idhTN4IjWURQOZF9YjWhKvi5Ujlx6PRl%2FtGfT0s5BzPs4SD%2FMxOzAK&noverify=0&group_code=555738007")
