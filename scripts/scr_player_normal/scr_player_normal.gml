@@ -118,10 +118,10 @@ function scr_player_normal(){
 	               idleanim = random_range(0, 100)
 	               if (idleanim < 40)
 	                  sprite_index = spr_player_idlefrown
-	                //if ((idleanim < 80) && (idleanim >= 40))
-	                  //  sprite_index = spr_player_idledance
-	                //if ((idleanim < 99) && (idleanim >= 80))
-	                  //  sprite_index = spr_player_idlevomit
+	               if ((idleanim < 80) && (idleanim >= 40))
+	                  sprite_index = spr_player_idledance
+	               if ((idleanim < 99) && (idleanim >= 80))
+	                  sprite_index = spr_player_idlevomit
 	                //if ((idleanim < 100) && (idleanim >= 99))
 	                 //   sprite_index = spr_player_idlevomitblood
 	                //image_index = 0
